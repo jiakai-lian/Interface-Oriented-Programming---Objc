@@ -1,5 +1,5 @@
 //
-//  MangerProtocol.h
+//  ChildMangerWithOptionalMethods.h
 //  IOP
 //
 //  Created by jiakai lian on 13/06/2015.
@@ -7,12 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ChildManager.h"
 
-@protocol ManagerProtocol <NSObject>
-
-- (void) APIName;
-
-@optional
-- (void) optionalMethod;
+@interface ChildMangerWithOptionalMethods : ChildManager
 
 @end

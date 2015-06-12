@@ -11,6 +11,7 @@
 		3E0F77641B2B9B6500847B8C /* BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77631B2B9B6500847B8C /* BaseManager.m */; };
 		3E0F776A1B2B9D6500847B8C /* ChildManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F77691B2B9D6500847B8C /* ChildManager.m */; };
 		3E0F776D1B2BA0F600847B8C /* ExternalInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F776C1B2BA0F600847B8C /* ExternalInterceptor.m */; };
+		3E0F77701B2BA7B100847B8C /* ChildMangerWithOptionalMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F776F1B2BA7B100847B8C /* ChildMangerWithOptionalMethods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,8 @@
 		3E0F77691B2B9D6500847B8C /* ChildManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildManager.m; sourceTree = "<group>"; };
 		3E0F776B1B2BA0F600847B8C /* ExternalInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalInterceptor.h; sourceTree = "<group>"; };
 		3E0F776C1B2BA0F600847B8C /* ExternalInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalInterceptor.m; sourceTree = "<group>"; };
+		3E0F776E1B2BA7B100847B8C /* ChildMangerWithOptionalMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildMangerWithOptionalMethods.h; sourceTree = "<group>"; };
+		3E0F776F1B2BA7B100847B8C /* ChildMangerWithOptionalMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildMangerWithOptionalMethods.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,13 +80,15 @@
 		3E0F775E1B2B9A6500847B8C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3E0F77681B2B9D6500847B8C /* ChildManager.h */,
-				3E0F77691B2B9D6500847B8C /* ChildManager.m */,
 				3E0F77621B2B9B6500847B8C /* BaseManager.h */,
 				3E0F77631B2B9B6500847B8C /* BaseManager.m */,
-				3E0F775F1B2B9AEE00847B8C /* Protocol */,
+				3E0F77681B2B9D6500847B8C /* ChildManager.h */,
+				3E0F77691B2B9D6500847B8C /* ChildManager.m */,
 				3E0F776B1B2BA0F600847B8C /* ExternalInterceptor.h */,
 				3E0F776C1B2BA0F600847B8C /* ExternalInterceptor.m */,
+				3E0F775F1B2B9AEE00847B8C /* Protocol */,
+				3E0F776E1B2BA7B100847B8C /* ChildMangerWithOptionalMethods.h */,
+				3E0F776F1B2BA7B100847B8C /* ChildMangerWithOptionalMethods.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			files = (
 				3E0F776A1B2B9D6500847B8C /* ChildManager.m in Sources */,
 				3E0F77641B2B9B6500847B8C /* BaseManager.m in Sources */,
+				3E0F77701B2BA7B100847B8C /* ChildMangerWithOptionalMethods.m in Sources */,
 				3E0F776D1B2BA0F600847B8C /* ExternalInterceptor.m in Sources */,
 				3E0F77581B2B99D000847B8C /* main.m in Sources */,
 			);

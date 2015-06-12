@@ -46,6 +46,11 @@
     
     [self.child APIName];
     
+    if([self.child respondsToSelector:@selector(optionalMethod)])
+    {
+        [self.child optionalMethod];
+    }
+    
     [self.interceptor didRun];
 }
 
