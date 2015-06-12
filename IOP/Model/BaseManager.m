@@ -10,6 +10,7 @@
 
 @implementation BaseManager
 
+#pragma mark - Initializer
 - (instancetype)init
 {
     if(self = [super init])
@@ -38,6 +39,7 @@
     
 }
 
+#pragma mark - Public Methods
 - (void)run
 {
     [self.interceptor willRun];
